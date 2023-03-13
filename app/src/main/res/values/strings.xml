@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">cours_groupe2</string>
+    <string name="text_bouton_calcul">Calcul</string>
+    <string name="text_bouton_dernier_calcul">Dernier Calcul</string>
+    <string name="text_bouton_0" translatable="false">0</string>
+    <string name="text_bouton_1" translatable="false">1</string>
+    <string name="text_bouton_2" translatable="false">2</string>
+    <string name="text_bouton_3" translatable="false">3</string>
+    <string name="text_bouton_4" translatable="false">4</string>
+    <string name="text_bouton_5" translatable="false">5</string>
+    <string name="text_bouton_6" translatable="false">6</string>
+    <string name="text_bouton_7" translatable="false">7</string>
+    <string name="text_bouton_8" translatable="false">8</string>
+    <string name="text_bouton_9" translatable="false">9</string>
+    <string name="text_bouton_plus" translatable="false">+</string>
+    <string name="text_bouton_substract" translatable="false">-</string>
+    <string name="text_bouton_multiply" translatable="false">x</string>
+    <string name="text_bouton_divide" translatable="false">/</string>
+    <string name="toolbar_clear">Nettoyer</string>
+    <string name="ERROR_ALREADY_HAVE_CALCUL_TYPE"> Il ne peut y avoir qu\'un seul type de calcul</string>
+    <string name="ERROR_NUMBER_TOO_HIGH"> Le nombre est trop grand</string>
+    <string name="TOOLBAR_CALCUL">FAIS LE CALCUL !</string>
+    <string name="MALFORMED_CALCUL"> Calcul malformé</string>
+
+</resources>

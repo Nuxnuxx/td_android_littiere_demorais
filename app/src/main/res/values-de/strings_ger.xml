@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_bouton_calcul">Calcul en allemand</string>
+    <string name="text_bouton_dernier_calcul">Dernier Calcul en allemand</string>
+    <string name= "toolbar_clear">Nettoyer en allemand</string>
+    <string name="ERROR_ALREADY_HAVE_CALCUL_TYPE"> Il ne peut y avoir qu\'un seul type de calcul en allemand</string>
+    <string name="ERROR_NUMBER_TOO_HIGH"> Le nombre est trop grand en allemand</string>
+    <string name="TOOLBAR_CALCUL">FAIS LE CALCUL !</string>
+    <string name="MALFORMED_CALCUL"> Calcul malformé en allemand</string>
+
+
+
+
+
+</resources>
