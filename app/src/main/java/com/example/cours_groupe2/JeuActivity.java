@@ -1,6 +1,5 @@
 package com.example.cours_groupe2;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -16,7 +15,7 @@ import com.example.cours_groupe2.DAO.CalculBaseHelper;
 import com.example.cours_groupe2.DAO.CalculDao;
 import com.example.cours_groupe2.model.entities.Calcul;
 
-public class CalculActivity extends AppCompatActivity {
+public class JeuActivity extends AppCompatActivity {
     private TextView textViewCalcul;
     private Button boutonPlus;
     private Button boutonDivide;
@@ -44,7 +43,7 @@ public class CalculActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calcul);
+        setContentView(R.layout.activity_jeu);
         calculDao= new CalculDao(new CalculBaseHelper(this,"BDD",1));
         textViewCalcul = findViewById(R.id.textViewCalcul);
         boutonDivide = findViewById(R.id.button_divide);

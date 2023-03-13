@@ -14,15 +14,15 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/boutonCalcul"
+            android:id="@+id/boutonJeu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_bouton_calcul" />
+            android:text="@string/text_bouton_jeu" />
 
         <Button
-            android:id="@+id/boutonDernierCalcul"
+            android:id="@+id/boutonHighScore"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_bouton_dernier_calcul" />
+            android:text="@string/text_bouton_dernier_jeu" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

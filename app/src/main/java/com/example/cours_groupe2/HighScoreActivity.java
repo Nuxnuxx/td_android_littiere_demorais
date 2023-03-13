@@ -9,14 +9,14 @@ import com.example.cours_groupe2.DAO.CalculBaseHelper;
 import com.example.cours_groupe2.DAO.CalculDao;
 import com.example.cours_groupe2.model.entities.Calcul;
 
-public class LastActivity extends AppCompatActivity {
+public class HighScoreActivity extends AppCompatActivity {
     private CalculDao calculDao;
     TextView textViewDernierCalcul;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_last);
+        setContentView(R.layout.activity_highscore);
         calculDao = new CalculDao(new CalculBaseHelper(this, "BDD", 1));
         Calcul monCalcul = calculDao.lastOrNull();
         textViewDernierCalcul = findViewById(R.id.textViewDernierCalcul);

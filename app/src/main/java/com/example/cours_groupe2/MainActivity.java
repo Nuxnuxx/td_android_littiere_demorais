@@ -4,28 +4,27 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button boutonCalcul;
+    private Button boutonJeu;
 
-    private Button boutonDernierCalcul;
+    private Button boutonHighScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        boutonCalcul = findViewById(R.id.boutonCalcul);
-        boutonCalcul.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this,CalculActivity.class);
+        boutonJeu = findViewById(R.id.boutonJeu);
+        boutonJeu.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, JeuActivity.class);
             startActivity(intent);
         });
 
-        boutonDernierCalcul= findViewById(R.id.boutonDernierCalcul);
-        boutonDernierCalcul.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this,LastActivity.class);
+        boutonHighScore = findViewById(R.id.boutonHighScore);
+        boutonHighScore.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, HighScoreActivity.class);
             startActivity(intent);
         });
     }
