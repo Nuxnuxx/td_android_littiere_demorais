@@ -1,8 +1,5 @@
 package com.example.cours_groupe2;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,12 +9,15 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.cours_groupe2.DAO.CalculBaseHelper;
 import com.example.cours_groupe2.DAO.CalculDao;
 import com.example.cours_groupe2.model.entities.Calcul;
 
-public class CalculActivity extends AppCompatActivity {
+public class JeuActivity extends AppCompatActivity {
     private TextView textViewCalcul;
+    private TextView textViewReponse;
     private Button boutonPlus;
     private Button boutonDivide;
     private Button boutonSubstract;
