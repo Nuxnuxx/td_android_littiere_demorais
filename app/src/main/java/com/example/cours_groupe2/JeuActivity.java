@@ -1,5 +1,10 @@
 package com.example.cours_groupe2;
 
+<<<<<<< HEAD
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+>>>>>>> refs/remotes/origin/main
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,15 +14,21 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import androidx.appcompat.app.AppCompatActivity;
 
+=======
+>>>>>>> refs/remotes/origin/main
 import com.example.cours_groupe2.DAO.CalculBaseHelper;
 import com.example.cours_groupe2.DAO.CalculDao;
 import com.example.cours_groupe2.model.entities.Calcul;
 
 public class JeuActivity extends AppCompatActivity {
     private TextView textViewCalcul;
+<<<<<<< HEAD
     private TextView textViewReponse;
+=======
+>>>>>>> refs/remotes/origin/main
     private Button boutonPlus;
     private Button boutonDivide;
     private Button boutonSubstract;
@@ -44,7 +55,11 @@ public class JeuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_calcul);
+=======
+        setContentView(R.layout.activity_jeu);
+>>>>>>> refs/remotes/origin/main
         calculDao= new CalculDao(new CalculBaseHelper(this,"BDD",1));
         textViewCalcul = findViewById(R.id.textViewCalcul);
         boutonDivide = findViewById(R.id.button_divide);

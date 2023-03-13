@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">cours_groupe2</string>
-    <string name="text_bouton_calcul">Calcul</string>
-    <string name="text_bouton_dernier_calcul">Dernier Calcul</string>
+    <string name="text_bouton_jeu">Jeu</string>
+    <string name="text_bouton_dernier_jeu">High Score</string>
     <string name="text_bouton_0" translatable="false">0</string>
     <string name="text_bouton_1" translatable="false">1</string>
     <string name="text_bouton_2" translatable="false">2</string>
