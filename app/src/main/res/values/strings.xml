@@ -21,5 +21,7 @@
     <string name="ERROR_NUMBER_TOO_HIGH"> Le nombre est trop grand</string>
     <string name="TOOLBAR_CALCUL">FAIS LE CALCUL !</string>
     <string name="MALFORMED_CALCUL"> Calcul malformé</string>
-
+    <string name="NAME_BINOME_1">Gaetan Littiere</string>
+    <string name="NAME_BINOME_2">Samuel De Morais</string>
+    <string name="text_bouton_apropos">A propos</string>
 </resources>

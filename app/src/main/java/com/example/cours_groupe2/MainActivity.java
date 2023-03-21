@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button boutonHighScore;
 
+    private Button boutonCredit;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
         boutonHighScore = findViewById(R.id.boutonHighScore);
         boutonHighScore.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, HighScoreActivity.class);
+            startActivity(intent);
+        });
+
+        boutonCredit = findViewById(R.id.boutonCredit);
+        boutonCredit.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, CreditActivity.class);
             startActivity(intent);
         });
     }
